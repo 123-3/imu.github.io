@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        header {
+            background-image: url(img/1.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        ul {
+            list-style-type: none;
+            float: right;
+            margin-top: 25px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+
+        }
+
+        ul li a:hover {
+            background-color: black;
+            color: white;
+
+        }
+
+        ul li.active a {
+            background-color: black;
+            color: white;
+
+
+        }
+        .logo1 img{
+            float: left;
+            width: 150px;
+            height: auto;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title h1 {
+            color: white;
+            font-size: 80px;
+            margin-left: 435px;
+
+        }
+
+        .button {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-left: 225px;
+
+        }
+
+        .btn {
+            border: 1px solid white;
+            padding: 0px 30px;
+            color: white;
+            text-decoration: none;
+            transition: 0.6s ease;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo1" >
+                <img src="img/logo1.png" alt="">
+
+            </div>
+        
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallary</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Cotnact Us</a></li>
+
+        </ul>
+        
+        <div class="title">
+            <h1>Traveller</h1>
+
+        </div>
+        <div class="button">
+            <a href="#" class="btn">Watch Video</a>
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
